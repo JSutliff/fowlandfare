@@ -1,0 +1,66 @@
+body {
+  background-color: #f7f7f7;
+  color: #372b08;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: -50px;
+  text-align: center;
+}
+
+#logo {
+  width: 100%;
+}
+
+main h1 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: -50px;
+  font-size: 1.3rem;
+}
+
+.food-display {
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 2px 8px 12px 1px rgba(86, 117, 116, 0.45);
+  width: 80%;
+}
+
+main p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.hide {
+  display: none;
+}
+
+@media only screen and (min-width: 700px) {
+  #logo {
+    margin-top: -200px;
+    margin-bottom: -200px;
+  }
+
+  main {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  main h1 {
+    font-size: 2.5rem;
+  }
+
+  main p {
+    text-align: left;
+    font-size: 1.3rem;
+  }
+
+  .food-display {
+    width: 450px;
+  }
+}
