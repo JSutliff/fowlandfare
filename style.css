@@ -10,9 +10,29 @@ main {
   margin-top: -50px;
   text-align: center;
 }
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
 
 #logo {
   width: 100%;
+}
+
+#order-btn {
+  background-color: rgb(251, 190, 72);
+  position: relative;
+  top: -75px;
+  box-shadow: 2px 8px 12px 1px rgba(86, 117, 116, 0.45);
+  padding: 0.75rem 1rem;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+#order-btn:hover {
 }
 
 main h1 {
@@ -49,6 +69,12 @@ main p {
     width: 80%;
     margin: 0 auto;
     text-align: center;
+  }
+
+  #order-btn {
+    top: -100px;
+    height: 75px;
+    width: 150px;
   }
 
   main h1 {
